@@ -1,0 +1,70 @@
+# Ignore .NET build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore auto-generated files
+*.njsproj
+*.sln.docstates
+*.suo
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore npm packages
+node_modules/
+libpeerconnection.log
+
+# Ignore coverage reports
+coverage/
+
+# Ignore Docker-related files
+.dockerignore
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore configuration files (optional)
+appsettings*.json
